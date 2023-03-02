@@ -1,6 +1,6 @@
 
 public class Variable1 {
-
+	
 	public static void main(String[] args) {
 		String name = "矢野詩織";
 		char gender = '女';
@@ -14,5 +14,5 @@ public class Variable1 {
 		System.out.println("身長は" + height + "です。");
 		System.out.println("よろしくお願いします。");
 	}
-
+	
 }
