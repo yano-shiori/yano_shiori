@@ -1,6 +1,6 @@
 
 public class DateType {
-
+	
 	public static void main(String[] args) {
 		int num1 = 30;
 		int num2 = 30;
@@ -10,4 +10,5 @@ public class DateType {
 		String message = "javaを学習しています。";
 		System.out.println(name + message);
 	}
+	
 }
