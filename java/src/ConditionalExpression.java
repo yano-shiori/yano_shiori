@@ -36,5 +36,5 @@ public class ConditionalExpression {
 		String play = (isTired == 0) ? (study + "を続けます。" ): "";
 		System.out.println(play);
 	}
-
+	
 }

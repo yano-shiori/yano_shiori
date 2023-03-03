@@ -19,5 +19,5 @@ public class Variable2 {
 		System.out.println("あなたの年齢を予想します。");
 		System.out.println("あなたの年齢はおそらく" + age + "歳ですね？");
 	}
-
+	
 }
