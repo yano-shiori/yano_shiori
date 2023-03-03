@@ -29,5 +29,5 @@ public class DateTypeChange {
 		cast2 = Integer.parseInt(str);
 		System.out.println(cast2);
 	}
-
+	
 }
