@@ -1,6 +1,6 @@
-import java.math.BigDecimal;
 
 public class DataTypeAndMemory {
+    // 1_16
     public static void main(String[] args) {
 
         // Q1：「A」という文字列を変数に代入してコンソールに出力してください。
