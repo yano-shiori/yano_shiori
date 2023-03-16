@@ -1,5 +1,15 @@
 public class Zoo {
     // 1.23
+    /*
+     *
+     * 下記がコンソールに出力されるように作成してください
+     * ※thisとsetterとgetterとフィールドを使ってください
+     *
+     * 動物名：ライオン
+     * 体長：2.1m
+     * 速度：80km/h
+     *
+     */
     public static void main(String[] args) {
         Animal2 lion = new Animal2("ライオン", 2.1, 80);
         System.out.println("動物名：" + lion.getName());
@@ -22,9 +32,11 @@ class Animal2 {
     public void setName(String name) {
         this.name = name;
     }
+
     public void setHeight(double height) {
         this.height = height;
     }
+
     public void setSpeed(int speed) {
         this.speed = speed;
     }
@@ -32,9 +44,11 @@ class Animal2 {
     public String getName() {
         return this.name;
     }
+
     public double getHeight() {
         return this.height;
     }
+
     public int getSpeed() {
         return this.speed;
     }
