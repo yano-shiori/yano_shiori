@@ -9,7 +9,7 @@ import java.util.Scanner;
 import jp.prefecture.*;
 
 public class Main {
-    // 1.29~1.30
+    // 1.29
     public static void main(String[] args) {
         // 都道府県の配列を生成
         Prefecture[] list = PrintList.importList();

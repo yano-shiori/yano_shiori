@@ -1,7 +1,7 @@
 package jp.prefecture;
 
 public class Prefecture {
-    // 1.29~1.30
+    // 1.29
     // コンストラクタを使って都道府県一覧を作成
     public static Prefecture hokkaido = new Prefecture("北海道", "札幌市", 83424);
     public static Prefecture aomori = new Prefecture("青森県", "青森市", 9646);
