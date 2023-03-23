@@ -17,17 +17,17 @@ public class Method {
 
         // Q5：引数として数字を渡すと、1～100までのランダムな数字を引数の値分格納して返すメソッド（関数）
         // を呼び出して、ループ文を用いてそれぞれの数をコンソールに出力してください。
-        System.out.println();
-
-        int[] q5 = rnd(3);
-        for (int all: q5) {
-            System.out.println(all);
-        }
-
         // Q6：Q5で作成した関数を用いて、配列の要素の平均値を返すメソッド（関数）を呼び出してコンソールに出力してください。
         System.out.println();
 
-        System.out.println(avg(3));
+        int[] q5 = rnd(3);
+        System.out.println("[Q5]配列の中身");
+        for (int all: q5) {
+            System.out.println(all);
+        }
+        System.out.println("[Q6]配列の要素の平均値");
+        int q6 = avg(q5);
+        System.out.println(q6);
     }
 
     public static void greeting() {
@@ -56,13 +56,12 @@ public class Method {
         return arr;
     }
 
-    public static int avg(int g) {
-        int[] arr2 = rnd(g);
+    public static int avg(int[] q5) {
         int sum = 0;
-        for (int i = 0; i < arr2.length; i++) {
-            sum += arr2[i];
+        for (int i=0; i < q5.length; i++) {
+            sum += q5[i];
         }
-        int avg_num = sum / g;
-        return avg_num;
+        int num = sum / q5.length;
+        return num;
     }
 }
