@@ -1,6 +1,7 @@
 package profile;
 
 public class Main {
+    
     // 1.30, 1.32, 1.33
     public static void main(String[] args) {
 
