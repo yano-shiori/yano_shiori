@@ -1,6 +1,5 @@
 import java.util.Scanner;
 // 1.26~1.28
-
 public class AnimalBook {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
