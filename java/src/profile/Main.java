@@ -1,7 +1,7 @@
 package profile;
 
 public class Main {
-    // 1.30
+    // 1.30, 1.32, 1.33
     public static void main(String[] args) {
 
         Person person1 = new Person("—é–Ø", "‘¾˜Y", 20, 1.7, 60);
