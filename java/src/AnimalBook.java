@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// 1.26~1.28
 
 public class AnimalBook {
     public static void main(String[] args) {
@@ -37,7 +38,6 @@ public class AnimalBook {
     }
 }
 
-// 1.26~1.28
 /*
  * コンソールに下記が入力されたときにコンソール出力結果がコンソールに表示されるように作ってください
  * ライオン:2.1:80,ゾウ:3.2:40,パンダ:1.9:30,チンパンジー:0.94:25,シマウマ:2.4:65,インコ:0.1:50
