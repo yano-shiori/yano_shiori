@@ -3,9 +3,13 @@ package profile;
 public class Main {
     // 1.30
     public static void main(String[] args) {
-        Person person1 = new Person("éˆ´æœ¨å¤ªéƒ", 20, 1.7, 60);
 
+        Person person1 = new Person("—é–Ø", "‘¾˜Y", 20, 1.7, 60);
         person1.print();
-        System.out.println("åˆè¨ˆ" + Person.count + "äººã§ã™");
+
+        Person person2 = new Person("R“c", "‰Ôq", 22, 1.5, 40);
+        person2.print();
+
+        Person.printCount();
     }
 }

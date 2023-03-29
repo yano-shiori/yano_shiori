@@ -1,30 +1,35 @@
 package profile;
 
-public class Person {
-    // 1.30
-    // インスタンスフィールドを定義
-    public String name;
-    public int age;
-    public double height;
-    public double weight;
+class Person {
     public static int count = 0;
+    public String firstName;
+    public int age;
+    public double height, weight;
+    public String lastName;
 
-    // コンストラクタを定義しインスタンスフィールドに値をセット
-    Person(String name, int age, double height, double weight) {
-        this.name = name;
+    Person(String firstName, String lastName, int age, double height, double weight) {
+        Person.count++;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.age = age;
         this.height = height;
         this.weight = weight;
-        count++;
     }
 
-    public static double bmi(double height, double weight) {
-        return weight / height / height;
+    public String fullName() {
+        return this.firstName + this.lastName;
     }
 
     public void print() {
-        System.out.println("名前は" + this.name + "です");
-        System.out.println("年は" + this.age + "です");
-        System.out.println("BMIは" + bmi(this.height, this.weight) + "です");
+        System.out.println("���O��" + this.fullName() + "�ł�");
+        System.out.println("�N��" + this.age + "�ł�");
+    }
+
+    public double bmi() {
+        return this.weight / this.height / this.height;
+    }
+
+    public static void printCount(){
+    System.out.println("���v" + Person.count + "�l�ł�");
     }
 }
